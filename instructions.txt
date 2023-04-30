@@ -1,0 +1,16 @@
+0000: NOP	No Operation
+0001: LDA	Load contents at memory address to A register
+0010: ADD	Load contents at memory address to B register and output from sum register to A register
+0011: SUB	Load contents at memory address to B register and output from sum register to A register - also set subtract pin on ALU
+0100: STA	Store contents of A register into memory address
+0101: LDI	Load binary value into A register
+0110: JMP	Jump to memory address
+0111: JC	Jump to memory address if carry flag is set
+1000: JZ	Jump to memory address if zero flag is set
+1001:
+1010:
+1011:
+1100:
+1101:
+1110: OUT	Load contents from A register to output register
+1111: HLT	Stop the clock
